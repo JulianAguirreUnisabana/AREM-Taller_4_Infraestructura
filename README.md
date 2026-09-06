@@ -1,5 +1,6 @@
 # Desarrollo del Taller 4: Mapa de Infraestructura y Diagnóstico Técnico - SOLO parte 1
-La explicación de esta parte se encuentra en el archivo Markdown [Notas](clase/notas.md) y el diagrama en [Diagrama]()
+La explicación de esta parte se encuentra en el archivo Markdown [Notas](clase/notas.md) y el diagrama en [Diagrama]().
+
 Nombres de los integrantes del grupo:
 - Brayan Presiga 
 - Julián Aguirre
