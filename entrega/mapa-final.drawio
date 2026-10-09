@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="pTQL5aEYyblexQvWdpt1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-13" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="400" width="300" x="90" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-8" connectable="0" parent="G5HuNIAeyBSy1p_1PlE1-13" style="group;dashed=1;dashPattern=8 8;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#e1d5e7;container=0;" value="" vertex="1">
+          <mxGeometry height="400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-2" parent="G5HuNIAeyBSy1p_1PlE1-13" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;aspect=fixed;dashed=1;strokeWidth=1;" value="Plataforma nacional - Llave del Saber (MinCultura / RNBP)" vertex="1">
+          <mxGeometry height="400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-3" parent="G5HuNIAeyBSy1p_1PlE1-13" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#B20000;dashed=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashPattern=8 8;" value="⚠️ Aplicación web - Llave del Saber (redundancia desconocida)" vertex="1">
+          <mxGeometry height="80" width="160" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-4" parent="G5HuNIAeyBSy1p_1PlE1-13" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#B20000;dashed=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashPattern=8 8;" value="⚠️ Base de datos - Llave del Saber: usuarios y préstamos (réplicas y backups desconocidos)" vertex="1">
+          <mxGeometry height="110" width="160" x="20" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Ba1UCUU8EqDsWrcu8T3W-5" edge="1" parent="G5HuNIAeyBSy1p_1PlE1-13" source="Ba1UCUU8EqDsWrcu8T3W-3" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="Ba1UCUU8EqDsWrcu8T3W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-14" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="290" width="312.5" x="501.75" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-17" parent="G5HuNIAeyBSy1p_1PlE1-14" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;strokeWidth=1;dashPattern=8 8;" value="Clientes externos" vertex="1">
+          <mxGeometry height="290" width="312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-1" parent="G5HuNIAeyBSy1p_1PlE1-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="App Móvil (Nextbit) - Usuario Final" vertex="1">
+          <mxGeometry height="80" width="160" x="76.25" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-2" parent="G5HuNIAeyBSy1p_1PlE1-14" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Koha) - Usuario Final" vertex="1">
+          <mxGeometry height="80" width="160" x="76.25" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-15" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="170" width="270" x="1256" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-18" parent="G5HuNIAeyBSy1p_1PlE1-15" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;dashed=1;strokeWidth=1;dashPattern=8 8;" value="Servidores externos (z39.50)" vertex="1">
+          <mxGeometry height="170" width="270" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-16" parent="G5HuNIAeyBSy1p_1PlE1-15" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Servidores externos: z39.50" vertex="1">
+          <mxGeometry height="60" width="120" x="75" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-16" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="400" width="300" x="927" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-21" parent="G5HuNIAeyBSy1p_1PlE1-16" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;aspect=fixed;dashed=1;strokeWidth=1;dashPattern=8 8;" value="Centro de datos Biteca – Bogotá" vertex="1">
+          <mxGeometry height="400" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-12" parent="G5HuNIAeyBSy1p_1PlE1-16" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;" value="⚠️ Instancia de Koha - Cogua (servidor compartido con otros municipios; redundancia no informada)" vertex="1">
+          <mxGeometry height="80" width="160" x="67.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-14" parent="G5HuNIAeyBSy1p_1PlE1-16" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#B20000;dashed=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashPattern=8 8;" value="⚠️ Base de datos: Usuarios, prestamos y catálogo de material (réplica y backups no informados)" vertex="1">
+          <mxGeometry height="110" width="160" x="95" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-24" edge="1" parent="G5HuNIAeyBSy1p_1PlE1-16" source="6vjncLpP9iC3T9Pjx65Q-12" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-17" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="690" width="480" x="418" y="-15" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-2" parent="G5HuNIAeyBSy1p_1PlE1-17" style="whiteSpace=wrap;html=1;strokeColor=#d6b656;align=center;verticalAlign=top;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#fff2cc;dashed=1;strokeWidth=1;dashPattern=8 8;" value="Biblioteca de Cogua" vertex="1">
+          <mxGeometry height="690" width="480" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-8" edge="1" parent="G5HuNIAeyBSy1p_1PlE1-17" source="2shvyGgTdqxxIcGTKFLz-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="G5HuNIAeyBSy1p_1PlE1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-1" parent="G5HuNIAeyBSy1p_1PlE1-17" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Llave del Saber) - Personal biblioteca" vertex="1">
+          <mxGeometry height="80" width="160" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-7" edge="1" parent="G5HuNIAeyBSy1p_1PlE1-17" source="6vjncLpP9iC3T9Pjx65Q-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="G5HuNIAeyBSy1p_1PlE1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-3" parent="G5HuNIAeyBSy1p_1PlE1-17" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Portal Web (Koha) - Personal biblioteca" vertex="1">
+          <mxGeometry height="80" width="160" x="290" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2shvyGgTdqxxIcGTKFLz-4" parent="G5HuNIAeyBSy1p_1PlE1-17" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e51400;strokeColor=#B20000;labelBackgroundColor=none;fontColor=#ffffff;" value="&lt;span style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;⚠️&lt;/span&gt;&lt;font&gt;&amp;nbsp;&lt;/font&gt;Almacenamiento local - PC bibliotecaria: eventos, talleres, videos, recursos y Excel de trabajo (instancia única, sin backup)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="160" x="160" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-9" edge="1" parent="G5HuNIAeyBSy1p_1PlE1-17" source="G5HuNIAeyBSy1p_1PlE1-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="G5HuNIAeyBSy1p_1PlE1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-4" parent="G5HuNIAeyBSy1p_1PlE1-17" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#e1d5e7;strokeColor=#9673a6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Equipos de consulta - Biblioteca" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-5" parent="G5HuNIAeyBSy1p_1PlE1-17" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;" value="⚠️ Conexión a internet - Biblioteca de Cogua (instancia única, sin respaldo)" vertex="1">
+          <mxGeometry height="80" width="160" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-22" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-1" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-23" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-2" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vjncLpP9iC3T9Pjx65Q-26" edge="1" parent="1" source="6vjncLpP9iC3T9Pjx65Q-12" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;edgeStyle=orthogonalEdgeStyle;curved=1;" target="6vjncLpP9iC3T9Pjx65Q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-10" edge="1" parent="1" source="G5HuNIAeyBSy1p_1PlE1-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="6vjncLpP9iC3T9Pjx65Q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-11" edge="1" parent="1" source="G5HuNIAeyBSy1p_1PlE1-5" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=none;resizable=0;startSize=8;endArrow=blockThin;endFill=1;endSize=8;" target="Ba1UCUU8EqDsWrcu8T3W-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;fontSize=20;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Relleno rojo +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); text-align: center; background-color: transparent;&quot;&gt;&lt;font&gt;⚠️&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); text-align: center; background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= riesgo confirmado&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Borde rojo punteado +&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 255, 255); text-align: center; background-color: transparent;&quot;&gt;⚠️&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= riesgo potencial (no informado / desconocido / inferido)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="433" x="1093" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-18" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;" value="⚠️ Contenido" vertex="1">
+          <mxGeometry height="60" width="110" x="953" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="G5HuNIAeyBSy1p_1PlE1-19" parent="1" style="whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;labelBackgroundColor=none;" value="⚠️ [Contenido]" vertex="1">
+          <mxGeometry height="60" width="110" x="953" y="-360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
