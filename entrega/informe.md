@@ -84,7 +84,7 @@ El mapa refleja la situación **AS-IS** de la biblioteca: muestra que toda la in
 - Los componentes internos de Koha (motor de búsqueda, caché, servidor web, etc.) existen en cualquier instalación [7][8], pero no se dibujaron porque Biteca no los confirmó y el nivel de detalle de la guía es de servidor o módulo [1].
 - No se dibujó balanceador de carga, firewall ni proxy porque no hay información que confirme su existencia.
 - El Excel de trabajo de la bibliotecaria no se dibujó como un componente aparte, porque vive en su PC; se incluye dentro del almacenamiento local, que comparte su mismo riesgo.
-- La carpeta física de registro de usuarios no se representa en el mapa porque no es un componente tecnológico. No se pudo confirmar si sigue en uso o ya es histórica.
+- La carpeta física de registro de usuarios no se representa en el mapa porque no es un componente tecnológico. Además, está en proceso de dejar de usarse, porque la inscripción ya se hace en el formulario en línea.
 - No se pudo confirmar si existe un procedimiento para seguir prestando material cuando la biblioteca se queda sin conexión a internet.
 
 ### Limitaciones
